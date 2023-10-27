@@ -309,8 +309,11 @@ body{
 .about_column {
 	margin: 5px;
 }
-
-
+@media(max-width: 554px){
+.about {
+	padding: 43px 23px;
+}
+}
 /*----------------------------------------------------------------*/
 .what {
 	background: url('../img/rectangle_7_138.png')0 0/cover no-repeat;
